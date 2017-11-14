@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#9d9f30</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="nav_top_color">#FFEC6053</color>
+    <color name="nav_top_input_textcolor">#FFF2F6F4</color>
+    <color name="nav_top_input_color">#FFE73F30</color>
+
+    <color name="class_leftrv_color">#FFE3AE28</color>
+    <color name="class_leftrv_color_no">#FFE2D8BB</color>
+    <color name="user_top_color">#FFDDD9CF</color>
+    <color name="user_top_in_nav">#FFE93908</color>
+    <color name="user_phone_textcolor">#FFF7F5F5</color>
+
+
+
+</resources>

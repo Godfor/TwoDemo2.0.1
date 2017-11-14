@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.bawei.wangyiming.twodemo_20.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout"
+        android:orientation="vertical"
+        android:layout_above="@+id/main_nav"
+        >
+
+    </LinearLayout>
+
+    <!--<fragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:name="com.bawei.test.twodemo.Fragments.Fragment_Home" />-->
+    <!--<fragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:name="com.bawei.test.twodemo.Fragments.Fragment_class" />-->
+    <!--<fragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:name="com.bawei.test.twodemo.Fragments.Fragment_cart" />-->
+    <!--<fragment-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:name="com.bawei.test.twodemo.Fragments.Fragment_user" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/main_nav"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/nav_radioGroup">
+            <RadioButton
+                style="@style/App_Button_Nav"
+                android:drawableTop="@drawable/select_nav_bottom_draw"
+                android:text="@string/app_nav_home"
+                android:id="@+id/nav_home"
+                />
+            <RadioButton
+                style="@style/App_Button_Nav"
+                android:drawableTop="@drawable/select_nav_bottom_draw2"
+                android:text="@string/app_nav_class"
+                android:id="@+id/nav_class"
+                />
+            <RadioButton
+                style="@style/App_Button_Nav"
+                android:drawableTop="@drawable/select_nav_bottom_draw3"
+                android:text="@string/app_nav_cart"
+                android:id="@+id/nav_cart"
+                />
+            <RadioButton
+                style="@style/App_Button_Nav"
+                android:drawableTop="@drawable/select_nav_bottom_draw4"
+                android:text="@string/app_nav_mine"
+                android:id="@+id/nav_mine"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

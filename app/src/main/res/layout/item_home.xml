@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/nav_top_layout"
+        android:background="@color/nav_top_color"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_normal_code"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/nav_top_zxing"
+            android:onClick="onClick"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="搜索一下"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/nav_top_input_textcolor"
+            android:gravity="center"
+            android:drawableRight="@mipmap/ic_edit_search"
+            android:background="@color/nav_top_input_color"
+            android:layout_gravity="center"
+            android:id="@+id/nav_top_search"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_normal_message"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:id="@+id/nav_top_talk"
+            />
+    </LinearLayout>
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="40sp"-->
+    <!--android:text="111"-->
+    <!--android:id="@+id/cstv"-->
+    <!--/>-->
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/home_xrecycler"
+        android:layout_height="wrap_content">
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>

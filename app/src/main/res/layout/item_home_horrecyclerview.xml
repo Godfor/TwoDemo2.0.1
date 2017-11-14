@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/home_onehorrecycler_head"
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImage="@drawable/icon_placeholder"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:roundingBorderWidth="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/id_num"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_onehorcycle_text"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

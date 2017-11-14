@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">王氏集团</string>
+
+    <string name="app_nav_home">首页</string>
+    <string name="app_nav_class">分类</string>
+    <string name="app_nav_cart">购物车</string>
+    <string name="app_nav_mine">个人</string>
+
+    <string name="user_phone_text">未登录</string>
+
+    <string name="app_user_nav_goods">商品: 0</string>
+    <string name="app_user_nav_dianpu">店铺: 0</string>
+    <string name="app_user_nav_foot">我的足迹</string>
+
+    <string name="app_user_nav_AllGoods">全部订单</string>
+    <string name="app_user_nav_AllGoods_wfk">未付款</string>
+    <string name="app_user_nav_AllGoods_dfk">待付款</string>
+    <string name="app_user_nav_AllGoods_dsh">待收货</string>
+    <string name="app_user_nav_AllGoods_dpj">待评价</string>
+    <string name="app_user_nav_AllGoods_tkh">退款/货</string>
+
+    <string name="app_user_nav_MyMoney">我的财产</string>
+    <string name="app_user_nav_MyMoney_yck">预存款</string>
+    <string name="app_user_nav_MyMoney_czk">充值卡</string>
+    <string name="app_user_nav_MyMoney_djj">代金卷</string>
+    <string name="app_user_nav_MyMoney_hb">红包</string>
+    <string name="app_user_nav_MyMoney_jf">积分</string>
+</resources>
